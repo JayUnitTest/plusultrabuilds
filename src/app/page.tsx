@@ -30,7 +30,7 @@ export default function Home() {
   ]
   return (
   <main className='flex flex-col gap-5 p-4 mx-auto max-w-[900px] w-full'>
-    <h2 className='font-bold text-4xl sm:text-5xl md:text-6xl'>Jay Singh</h2>
+    <h2 className='font-bold text-4xl sm:py-4 md:py-8 sm:text-5xl md:text-6xl'>Jay Singh</h2>
     <section>
     <SectionHeaderText>Graduate Developer</SectionHeaderText>
     <DescriptionMap list={links} type={"links"} />

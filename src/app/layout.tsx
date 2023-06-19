@@ -31,9 +31,9 @@ export default function RootLayout({
         {children}
         <footer className='flex p-4 py-16  text-xs border-t text-slate-600 sm:text-sm items-center justify-center flex-col gap-6'>
           <div className='flex items-center justify-center gap-4'>
-            <a href={'/'}  target = "_blank" className='cursor-pointer hover:opacity-60 duration-200'>PDF CV</a>
+            <a download href={'/cv.pdf'} target = "_blank" className='cursor-pointer hover:opacity-60 duration-200'>PDF CV</a>
             <p>|</p>
-            <a href={'/'} target = "_blank"  className='cursor-pointer hover:opacity-60 duration-200'>projects</a>
+            <Link href={'/projects'} className='cursor-pointer hover:opacity-60 duration-200'>projects</Link>
             <p>|</p>
             <a href={'/'} target = "_blank"  className='cursor-pointer hover:opacity-60 duration-200'>Other</a>
             <p>|</p>

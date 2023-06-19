@@ -231,7 +231,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -239,16 +239,12 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/jay/Documents/GitHub/plusultrabuilds/src/app/page": {
-      "modules": [],
-      "files": []
-    },
     "/Users/jay/Documents/GitHub/plusultrabuilds/src/app/layout": {
       "modules": [
         "/Users/jay/Documents/GitHub/plusultrabuilds/src/app/globals.css",
@@ -259,6 +255,10 @@
       ]
     },
     "/Users/jay/Documents/GitHub/plusultrabuilds/src/app/projects/page": {
+      "modules": [],
+      "files": []
+    },
+    "/Users/jay/Documents/GitHub/plusultrabuilds/src/app/page": {
       "modules": [],
       "files": []
     }
