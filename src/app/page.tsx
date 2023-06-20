@@ -31,10 +31,21 @@ export default function Home() {
   return (
   <main className='flex flex-col gap-5 p-4 mx-auto max-w-[900px] w-full'>
     <h2 className='font-bold text-4xl sm:py-4 md:py-8 sm:text-5xl md:text-6xl'>Jay Singh</h2>
-    <section>
-    <SectionHeaderText>Graduate Developer</SectionHeaderText>
+    <div className='mb-4'>
+    <img
+  src="/itsme.jpeg"
+  className="rounded-full h-auto max-w-lg mx-auto shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30"
+  alt="Avatar" />
+      </div>
+      <section className="mb-5">
+    <div
+      className="fade show items-center justify-between rounded-lg bg-slate-500 py-2 px-4 text-center text-white md:flex md:text-left">
+      <div className="mb-2 h-auto max-w-lg mx-auto items-center justify-center md:mb-0 px- md:justify-start">
+        <strong className="mr-1">Hi!</strong> I am a graduate Developer from the UK
+      </div>
+    </div>
     <DescriptionMap list={links} type={"links"} />
-    </section>
+  </section>
     <section>
       <SectionHeaderText>About me</SectionHeaderText>
       <p>I am a computer Science graduate based in the UK looking to take my first steps in the industry.
