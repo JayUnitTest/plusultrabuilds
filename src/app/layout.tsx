@@ -2,6 +2,7 @@
 import './globals.css'
 import Link from 'next/link'
 import { ThemeProvider } from 'next-themes'
+import { useTheme } from 'next-themes'
 import {  M_PLUS_Rounded_1c } from 'next/font/google'
 
 const font = M_PLUS_Rounded_1c({weight: ['100', '300', '400', '500', '700', '900'],subsets: ['latin'] })
@@ -17,15 +18,17 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className='scroll-smooth'>
       <head>
+      <link rel="shortcut icon" type="image/png" href="/public/favicon-32x32.png" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossOrigin="anonymous" 
       referrerPolicy="no-referrer" />
       </head>
-      <body className={'min-h-screen flex flex-col text-slate-700' + font.className}>
+      <body className={' bg-#F9DD81 min-h-screen flex flex-col text-slate-700' + font.className}>
         <header className='flex p-4 sm:p-5 border-b'>
           <div className='flex font-medium text-xs sm:text-sm items-center max-w-[900px] mx-auto w-full'>
+          <img src="logo.png" className='w-200 h-10' alt="Logo" />
           <Link href={'/'} className='hidden sm:inline'>Jay Singh</Link>
           <Link href={'/'}className='sm:hidden'>JS</Link>
           </div>
