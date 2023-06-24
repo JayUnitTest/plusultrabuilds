@@ -15,7 +15,7 @@ export default function Home() {
   const links = [
     {name: 'Email:', link: 'https://www.gmail.com', content: 'jaysingh4078@gmail.com'},
     {name: 'Github:', link: 'https://github.com/JayUnitTest', content: 'JayUnitTest'},
-    {name: 'LinkedIn:', link: 'https://www.linkedin.com/in/jay-singh-51ba87142/', content: 'JaySingh'},
+    {name: 'LinkedIn:', link: 'https://www.linkedin.com/in/jay-singh-51ba87142/', content: 'Jay Singh'},
   ]
 
   const skills = [

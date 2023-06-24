@@ -40,15 +40,21 @@ export default function RootLayout({
             <p>|</p>
             <Link href={'/projects'} className='cursor-pointer hover:opacity-60 duration-200'>projects</Link>
             <p>|</p>
-            <a href={'/'} target = "_blank"  className='cursor-pointer hover:opacity-60 duration-200'>Other</a>
+            <a href={'https://github.com/JayUnitTest/plusultrabuilds'} target = "_blank"  className='cursor-pointer hover:opacity-60 duration-200'>Source</a>
             <p>|</p>
           </div>
           <div className='flex items-center justify-center gap-4'>
+          <a href='https://github.com/JayUnitTest' target='_blank'>
           <i className="fa-brands fa-github cursor-pointer hover:opacity-60 duration-200 "></i>
+          </a>
             <p>|</p>
+            <a href='https://www.linkedin.com/in/jay-singh-51ba87142/' target='_blank'>
             <i className="fa-brands fa-linkedin-in cursor-pointer hover:opacity-60 duration-200"></i>
+            </a>
             <p>|</p>
+            <a href='https://github.com/JayUnitTest/plusultrabuilds' target='_blank'>
             <i className="fa-brands fa-square-github cursor-pointer hover:opacity-60 duration-200"></i>
+            </a>
           </div>
         </footer>
         </body>

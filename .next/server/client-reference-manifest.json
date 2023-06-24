@@ -249,10 +249,6 @@
       "modules": [],
       "files": []
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/src/app/projects/page": {
-      "modules": [],
-      "files": []
-    },
     "/Users/jay/Documents/GitHub/plusultrabuilds/src/app/layout": {
       "modules": [
         "/Users/jay/Documents/GitHub/plusultrabuilds/src/app/globals.css",
@@ -261,6 +257,10 @@
       "files": [
         "static/css/app/layout.css"
       ]
+    },
+    "/Users/jay/Documents/GitHub/plusultrabuilds/src/app/projects/page": {
+      "modules": [],
+      "files": []
     }
   }
 }
