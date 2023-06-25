@@ -245,6 +245,10 @@
     }
   },
   "entryCSSFiles": {
+    "/Users/jay/Documents/GitHub/plusultrabuilds/src/app/projects/page": {
+      "modules": [],
+      "files": []
+    },
     "/Users/jay/Documents/GitHub/plusultrabuilds/src/app/page": {
       "modules": [],
       "files": []
@@ -252,15 +256,11 @@
     "/Users/jay/Documents/GitHub/plusultrabuilds/src/app/layout": {
       "modules": [
         "/Users/jay/Documents/GitHub/plusultrabuilds/src/app/globals.css",
-        "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"M_PLUS_Rounded_1c\",\"arguments\":[{\"weight\":[\"100\",\"300\",\"400\",\"500\",\"700\",\"900\"],\"subsets\":[\"latin\"]}],\"variableName\":\"font\"}"
+        "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"M_PLUS_Rounded_1c\",\"arguments\":[{\"weight\":[\"100\",\"300\",\"400\",\"500\",\"700\",\"900\"],\"subsets\":[\"cyrillic\"]}],\"variableName\":\"font\"}"
       ],
       "files": [
         "static/css/app/layout.css"
       ]
-    },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/src/app/projects/page": {
-      "modules": [],
-      "files": []
     }
   }
 }
