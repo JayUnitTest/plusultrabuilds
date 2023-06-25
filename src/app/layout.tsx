@@ -4,7 +4,7 @@ import { ThemeProvider } from 'next-themes'
 import { useTheme } from 'next-themes'
 import {  M_PLUS_Rounded_1c } from 'next/font/google'
 
-const font = M_PLUS_Rounded_1c({weight: ['100', '300', '400', '500', '700', '900'],subsets: ['cyrillic'] })
+const font = M_PLUS_Rounded_1c({weight: ['100', '300', '400', '500', '700', '900'],subsets: ['latin'] })
 
 export const metadata = {
   title: 'Jay Singh Portfolio',
