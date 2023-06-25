@@ -1,4 +1,3 @@
-
 import './globals.css'
 import Link from 'next/link'
 import { ThemeProvider } from 'next-themes'
@@ -25,7 +24,7 @@ export default function RootLayout({
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossOrigin="anonymous" 
       referrerPolicy="no-referrer" />
       </head>
-      <body className={' bg-#F9DD81 min-h-screen flex flex-col text-slate-700' + font.className}>
+      <body className={'bg-#F9DD81 min-h-screen flex flex-col text-slate-700' + font.className}>
         <header className='flex p-4 sm:p-5 border-b'>
           <div className='flex font-medium text-xs sm:text-sm items-center max-w-[900px] mx-auto w-full'>
           <img src="logo.png" className='w-200 h-10' alt="Logo" />
