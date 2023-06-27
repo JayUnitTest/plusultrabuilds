@@ -12,7 +12,7 @@ export default function ProjectsPage() {
   ]
 
   return (
-  <main className='flex flex-col flex-1 mx-auto max-w-[900px] w-full bg-amber-200'>
+  <main className='flex flex-col flex-1 mx-auto max-w-[900px] w-full bg-inherit'>
     {projects.map((project, projectIndex) => {
       return (
         <ProjectCard key={projectIndex} project={project} index={projectIndex}/>

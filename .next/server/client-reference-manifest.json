@@ -63,11 +63,27 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./src/app/Providers.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/Providers.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/DarkMode.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/DarkMode.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
   "clientModules": {
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/client/components/app-router.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -75,7 +91,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/esm/client/components/app-router.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/esm/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -83,7 +99,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/client/components/error-boundary.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -91,7 +107,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/esm/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -99,7 +115,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/client/components/redirect-boundary.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/client/components/redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -107,7 +123,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -115,7 +131,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -123,7 +139,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -131,7 +147,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/shared/lib/app-router-context.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/shared/lib/app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -139,7 +155,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -147,7 +163,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/shared/lib/hooks-client-context.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/shared/lib/hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -155,7 +171,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -163,7 +179,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/shared/lib/server-inserted-html.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/shared/lib/server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -171,7 +187,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -179,7 +195,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/client/components/layout-router.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -187,7 +203,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/esm/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -195,7 +211,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -203,7 +219,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -211,7 +227,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -219,7 +235,7 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -227,38 +243,54 @@
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/client/link.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/client/link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/dist/esm/client/link.js": {
+    "/Users/jay/Documents/plusultrabuilds/node_modules/next/dist/esm/client/link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/jay/Documents/plusultrabuilds/src/app/Providers.tsx": {
+      "id": "(app-client)/./src/app/Providers.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/jay/Documents/plusultrabuilds/src/app/DarkMode.jsx": {
+      "id": "(app-client)/./src/app/DarkMode.jsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/jay/Documents/GitHub/plusultrabuilds/src/app/layout": {
+    "/Users/jay/Documents/plusultrabuilds/src/app/page": {
+      "modules": [],
+      "files": []
+    },
+    "/Users/jay/Documents/plusultrabuilds/src/app/layout": {
       "modules": [
-        "/Users/jay/Documents/GitHub/plusultrabuilds/src/app/globals.css",
-        "/Users/jay/Documents/GitHub/plusultrabuilds/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"M_PLUS_Rounded_1c\",\"arguments\":[{\"weight\":[\"100\",\"300\",\"400\",\"500\",\"700\",\"900\"],\"subsets\":[\"latin\"]}],\"variableName\":\"font\"}"
+        "/Users/jay/Documents/plusultrabuilds/src/app/globals.css",
+        "/Users/jay/Documents/plusultrabuilds/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Roboto\",\"arguments\":[{\"weight\":[\"100\",\"300\",\"400\",\"500\",\"700\",\"900\"],\"subsets\":[\"latin\"]}],\"variableName\":\"font\"}"
       ],
       "files": [
         "static/css/app/layout.css"
       ]
     },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/src/app/page": {
-      "modules": [],
-      "files": []
-    },
-    "/Users/jay/Documents/GitHub/plusultrabuilds/src/app/projects/page": {
+    "/Users/jay/Documents/plusultrabuilds/src/app/projects/page": {
       "modules": [],
       "files": []
     }
