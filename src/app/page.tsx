@@ -37,10 +37,10 @@ export default function Home() {
     <h1 className='font-bold text-4xl sm:py-4 md:py-8 sm:text-5xl md:text-6xl py-4 text-inherit '>
             Hi, I&#39;m <span className='text-[#388B83] dark:text-[#816797]'> Jay <span className='hand'>👋</span></span>
           </h1>
-          <h1 className='py-2 text-inherit'>Junior Software Developer</h1>
+          <h1 className='py-2 text-inherit'> Software Developer | Cloud Enthusiast</h1>
     <div className='mb-6'>
     <img
-  src="/itsme.jpeg"
+  src="public\itsme.jpeg"
   className="mx-auto object-cover w-56 h-56 sm:w-96 sm:h-96 border-4 border-[#388B83] dark:border-[#816797] rounded-full custom-position "
   alt="Avatar" />
       </div>
