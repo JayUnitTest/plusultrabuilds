@@ -28,9 +28,9 @@ export default function RootLayout({
         <Providers>
         <header className='... backdrop-filter backdrop-blur-lg bg-opacity-30 flex p-4 sm:p-5 border-b'>
           <div className='flex font-medium text-xs sm:text-sm items-center max-w-[900px] mx-auto w-full'>
-          <a href={'/'}><img src="logo.png" className='w-200 h-10' alt="Logo" /></a>
-          <Link href={'/'} className='hidden sm:inline'>Jay Singh</Link>
-          <Link href={'/'}className='sm:hidden'>JS</Link>
+          <a href={'/plusultrabuilds'}><img src="logo.png" className='w-200 h-10' alt="Logo" /></a>
+          <Link href={'/plusultrabuilds'} className='hidden sm:inline'>Jay Singh</Link>
+          <Link href={'/plusultrabuilds'}className='sm:hidden'>JS</Link>
           </div>
           <DarkMode/>
         </header>

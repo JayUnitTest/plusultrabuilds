@@ -64,17 +64,17 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/DarkMode.jsx": {
+    "(app-client)/./src/app/Providers.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/DarkMode.jsx",
+        "id": "(sc_client)/./src/app/Providers.tsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/app/Providers.tsx": {
+    "(app-client)/./src/app/DarkMode.jsx": {
       "*": {
-        "id": "(sc_client)/./src/app/Providers.tsx",
+        "id": "(sc_client)/./src/app/DarkMode.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -247,20 +247,12 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
     "E:\\plusultrabuilds\\node_modules\\next\\dist\\esm\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "E:\\plusultrabuilds\\src\\app\\DarkMode.jsx": {
-      "id": "(app-client)/./src/app/DarkMode.jsx",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
@@ -271,12 +263,24 @@
       "id": "(app-client)/./src/app/Providers.tsx",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "E:\\plusultrabuilds\\src\\app\\DarkMode.jsx": {
+      "id": "(app-client)/./src/app/DarkMode.jsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
+    "E:\\plusultrabuilds\\src\\app\\page": {
+      "modules": [],
+      "files": []
+    },
     "E:\\plusultrabuilds\\src\\app\\layout": {
       "modules": [
         "E:\\plusultrabuilds\\src\\app\\globals.css"
@@ -284,10 +288,6 @@
       "files": [
         "static/css/app/layout.css"
       ]
-    },
-    "E:\\plusultrabuilds\\src\\app\\page": {
-      "modules": [],
-      "files": []
     }
   }
 }
