@@ -40,7 +40,7 @@ export default function Home() {
           <h1 className='py-2 text-inherit'> Software Developer | Cloud Enthusiast</h1>
     <div className='mb-6'>
     <img
-  src="public\itsme.jpeg"
+  src="public\itsme.jpg"
   className="mx-auto object-cover w-56 h-56 sm:w-96 sm:h-96 border-4 border-[#388B83] dark:border-[#816797] rounded-full custom-position "
   alt="Avatar" />
       </div>
