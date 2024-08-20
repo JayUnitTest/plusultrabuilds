@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react'
 import { useTheme } from 'next-themes';
 import * as SolidIcons from '@heroIcons/react/24/solid';
 import * as OutlineIcons from '@heroIcons/react/24/outline';
+import { SunIcon, MoonIcon } from '@heroIcons/react/24/solid';
+import { AnotherIcon } from '@heroIcons/react/24/outline';
 
 
 const DarkMode = () => {
