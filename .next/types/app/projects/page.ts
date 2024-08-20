@@ -1,4 +1,4 @@
-// File: /Users/jay/Documents/plusultrabuilds/src/app/projects/page.tsx
+// File: E:\plusultrabuilds\src\app\projects\page.tsx
 import * as entry from '../../../../src/app/projects/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
